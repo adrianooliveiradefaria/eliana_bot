@@ -115,6 +115,6 @@ def processar_dados(arquivo):
 
 
 # Rodando a aplicação
-if __name__:
+if __name__ == '__main__':
     processar_dados('elegantia.xlsx')
     exit(0)
